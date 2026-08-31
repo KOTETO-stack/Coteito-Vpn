@@ -1,0 +1,40 @@
+name: Auto Update VPN Subscription
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Restore sources cache
+        uses: actions/cache@v3
+        with:
+          path: sources.json
+          key: sources-cache-${{ github.run_id }}
+          restore-keys: sources-cache-
+          
+      - name: Update subscription
+        run: python update_subscription_v2.py
+        
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add subscription.txt subscription.json sources.json source_history.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update: $(date -u +%Y-%m-%d_%H:%M:%S)"
+          git push
