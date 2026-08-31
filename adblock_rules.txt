@@ -1,0 +1,9 @@
+||googleadservices.com^
+||doubleclick.net^
+||google-analytics.com^
+||facebook.com/tr^
+||googlesyndication.com^
+||youtube.com/api/stats/ads^
+||youtube.com/pagead^
+||youtube.com/ptracking^
+||googlevideo.com/videoplayback*&oad^
