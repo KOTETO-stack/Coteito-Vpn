@@ -89,7 +89,6 @@ FALLBACK_SOURCES = [
     "https://raw.githubusercontent.com/mianfeifq/share/main/data/2026_01_01/1.txt",
     "https://raw.githubusercontent.com/zyfxz/V2Ray-subscribe/main/README.md",
     "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-    "https://raw.githubusercontent.com/zyfxz/V2Ray-subscribe/main/README.md",
     "https://raw.githubusercontent.com/free18/v2ray/main/merge/merge.txt",
     "https://raw.githubusercontent.com/chenjw512/FreeNode/master/sub/merged.txt",
     "https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest.txt",
@@ -166,7 +165,6 @@ class AutoSubscriptionBuilder:
         self.source_urls = []
         
     def get_source_urls(self):
-        # Try to load from source_manager, fallback to built-in list
         try:
             from source_manager import SourceManager
             manager = SourceManager()
@@ -219,7 +217,6 @@ class AutoSubscriptionBuilder:
             else:
                 print(f"    -> Failed")
                 
-        # Deduplicate
         seen = set()
         unique = []
         for n in all_nodes:
@@ -233,12 +230,10 @@ class AutoSubscriptionBuilder:
     async def build(self):
         print("=== Auto Subscription Builder ===")
         
-        # Step 1: Get sources
         print("\n[1/7] Loading sources...")
         self.source_urls = self.get_source_urls()
         print(f"Using {len(self.source_urls)} sources")
         
-        # Step 2: Fetch nodes
         print("\n[2/7] Fetching nodes...")
         nodes = await self.fetch_all_nodes(self.source_urls)
         print(f"Found {len(nodes)} unique nodes")
@@ -247,7 +242,6 @@ class AutoSubscriptionBuilder:
             print("ERROR: Too few nodes found. Aborting.")
             return None
             
-        # Step 3: Parse nodes
         print("\n[3/7] Parsing nodes...")
         from update_subscription import VPNValidator
         validator = VPNValidator()
@@ -262,7 +256,6 @@ class AutoSubscriptionBuilder:
                 
         print(f"Parsed {len(parsed)} valid nodes")
         
-        # Step 4: Speed test
         print("\n[4/7] Speed testing...")
         tester = SpeedTester()
         ranked = await tester.rank_servers(parsed, max_concurrent=50)
@@ -276,7 +269,6 @@ class AutoSubscriptionBuilder:
         parsed.sort(key=lambda x: x.get("score", 0), reverse=True)
         print(f"Ranked {len(ranked)} servers")
         
-        # Step 5: Generate WARP+
         print("\n[5/7] Generating WARP+ keys...")
         warp_gen = WARPKeyGenerator()
         try:
@@ -286,7 +278,6 @@ class AutoSubscriptionBuilder:
             print(f"WARP+ generation failed: {e}")
             warp_keys = []
         
-        # Step 6: Build config
         print("\n[6/7] Building Karing config...")
         gen = KaringConfigGenerator()
         await gen.init()
@@ -294,17 +285,14 @@ class AutoSubscriptionBuilder:
         subscription = gen.generate_karing_subscription(parsed[:150], warp_keys)
         subscription = gen.protector.apply_protection(subscription)
         
-        # Step 7: Export
         print("\n[7/7] Exporting...")
         b64 = gen.export(subscription)
         
-        # Save files
         with open("subscription.txt", "w") as f:
             f.write(b64)
         with open("subscription.json", "w") as f:
             json.dump(subscription, f, indent=2)
             
-        # Save sources state
         with open("sources.json", "w") as f:
             json.dump([{"url": u, "active": True} for u in self.source_urls], f, indent=2)
             
