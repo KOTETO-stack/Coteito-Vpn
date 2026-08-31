@@ -1,0 +1,53 @@
+name: Auto Update VPN Subscription
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Update subscription
+        run: python update_subscription_v2.py
+        timeout-minutes: 10
+        
+      - name: Check files exist
+        run: |
+          ls -la subscription.txt subscription.json sources.json 2>/dev/null || echo "Some files missing"
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add files only if they exist
+          [ -f subscription.txt ] && git add subscription.txt
+          [ -f subscription.json ] && git add subscription.json
+          [ -f sources.json ] && git add sources.json
+          [ -f source_history.json ] && git add source_history.json
+          [ -f discovered_sources.json ] && git add discovered_sources.json
+          [ -f validation_report.json ] && git add validation_report.json
+          [ -f live_sources.json ] && git add live_sources.json
+          
+          git status
+          git diff --staged --quiet || git commit -m "Auto-update VPN subscription $(date -u +%Y-%m-%d_%H:%M:%S)"
+          git push || echo "Nothing to push"
