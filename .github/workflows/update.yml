@@ -39,14 +39,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Add files only if they exist
           [ -f subscription.txt ] && git add subscription.txt
           [ -f subscription.json ] && git add subscription.json
           [ -f sources.json ] && git add sources.json
-          [ -f source_history.json ] && git add source_history.json
-          [ -f discovered_sources.json ] && git add discovered_sources.json
-          [ -f validation_report.json ] && git add validation_report.json
-          [ -f live_sources.json ] && git add live_sources.json
           
           git status
           git diff --staged --quiet || git commit -m "Auto-update VPN subscription $(date -u +%Y-%m-%d_%H:%M:%S)"
