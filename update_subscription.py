@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 import asyncio
 import base64
+import hashlib
 import json
 import os
 import re
 import time
 from datetime import datetime, timedelta
+from urllib.parse import urlparse, parse_qs
 
 import aiohttp
 import yaml
@@ -24,9 +26,6 @@ SNI_SPOOF_HOST = "www.google.com"
 class VPNValidator:
     def __init__(self):
         self.session = None
-        self.valid_servers = []
-        self.warp_servers = []
-        self.amnezia_servers = []
         
     async def init_session(self):
         connector = aiohttp.TCPConnector(limit=100, ssl=False)
@@ -63,7 +62,7 @@ class VPNValidator:
             uuid = parsed.username
             host = parsed.hostname
             port = parsed.port or 443
-            params = {k: v[0] for k, v in urlparse.parse_qs(parsed.query).items()}
+            params = {k: v[0] for k, v in parse_qs(parsed.query).items()}
             return {
                 'protocol': 'vless',
                 'uuid': uuid,
@@ -87,7 +86,7 @@ class VPNValidator:
             password = parsed.username
             host = parsed.hostname
             port = parsed.port or 443
-            params = {k: v[0] for k, v in urlparse.parse_qs(parsed.query).items()}
+            params = {k: v[0] for k, v in parse_qs(parsed.query).items()}
             return {
                 'protocol': 'trojan',
                 'password': password,
@@ -108,7 +107,7 @@ class VPNValidator:
             password = parsed.username
             host = parsed.hostname
             port = parsed.port or 443
-            params = {k: v[0] for k, v in urlparse.parse_qs(parsed.query).items()}
+            params = {k: v[0] for k, v in parse_qs(parsed.query).items()}
             return {
                 'protocol': 'hysteria2',
                 'password': password,
@@ -418,13 +417,6 @@ class VPNValidator:
             }
         }
         
-    def encrypt_subscription(self, data):
-        from cryptography.fernet import Fernet
-        key = base64.urlsafe_b64encode(hashlib.sha256(ENCRYPTION_KEY.encode()).digest()[:32])
-        f = Fernet(key)
-        encrypted = f.encrypt(json.dumps(data).encode())
-        return base64.urlsafe_b64encode(encrypted).decode()
-        
     async def run(self, source_urls):
         await self.init_session()
         
@@ -489,11 +481,8 @@ class VPNValidator:
 
 async def main():
     validator = VPNValidator()
-    # Use source_manager to get URLs
-    from source_manager import SourceManager
-    manager = SourceManager()
-    urls = manager.get_source_urls()
-    await validator.run(urls)
+    # Use fallback sources
+    await validator.run(FALLBACK_SOURCES)
 
 
 if __name__ == '__main__':
