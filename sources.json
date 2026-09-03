@@ -35,7 +35,7 @@
     "bridges_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/TOR-BRIDGES/TOR_BRIDGES_TOP100.txt"
   },
   "warp": {
-    "enabled": true
+    "enabled": false
   },
   "add_source": {
     "method": "append_to_this_file",
