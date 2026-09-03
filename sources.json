@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "version": "1.0",
+    "updated": "2026-09-03",
+    "max_servers": 150,
+    "max_ping_ms": 500,
+    "update_interval_hours": 1,
+    "protocols": ["vless","vmess","trojan","hysteria2","hy2","shadowsocks"]
+  },
+  "sources": [
+    {"url":"https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/anaer/Sub/main/sub","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/freefq/free/master/v2","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/learnhard-cn/free_proxy_zz/main/subscribe/v2ray.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/Flik6/get-v2ray/main/v2ray.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/mianfeifq/share/main/data2024616.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/wrfree/free/main/v2","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/v2raydy/v2ray/main/subscribe.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/ZYFXZ/free/main/v2ray.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all3.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt","type":"base64","enabled":true},
+    {"url":"https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml","type":"yaml","enabled":true}
+  ],
+  "tor": {
+    "enabled": true,
+    "bridges_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/TOR-BRIDGES/TOR_BRIDGES_TOP100.txt"
+  },
+  "warp": {
+    "enabled": true
+  },
+  "add_source": {
+    "method": "append_to_this_file",
+    "template": {"url":"","type":"base64","enabled":true}
+  }
+}
