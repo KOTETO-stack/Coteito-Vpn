@@ -243,12 +243,12 @@
     },
     {
       "type": "trojan",
-      "server": "104.20.6.134",
+      "server": "104.19.229.21",
       "server_port": 443,
       "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "www.ignitelimit.com#🏁RELAY-104.20.6.134-0677",
+        "server_name": "104.19.229.21",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -263,12 +263,12 @@
     },
     {
       "type": "trojan",
-      "server": "104.18.22.63",
+      "server": "104.16.71.213",
       "server_port": 443,
-      "password": "humanity",
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
-        "server_name": "www.ignitelimit.com#🏁RELAY-104.18.22.63-0682",
+        "server_name": "104.16.71.213",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -283,12 +283,12 @@
     },
     {
       "type": "trojan",
-      "server": "45.130.125.112",
+      "server": "104.18.23.63",
       "server_port": 443,
       "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "45.130.125.112",
+        "server_name": "www.ignitelimit.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -302,25 +302,29 @@
       "tag": "n2"
     },
     {
-      "type": "shadowsocks",
-      "server": "167.88.62.68",
+      "type": "trojan",
+      "server": "104.16.174.36",
       "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
       "tag": "n3"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "38.68.135.123",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n4"
     },
     {
       "type": "vless",
       "server": "172.64.158.146",
-      "server_port": 2052,
+      "server_port": 80,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "tls": {
         "enabled": true,
@@ -342,96 +346,36 @@
         "protocol": "smux",
         "max_streams": 16
       },
+      "tag": "n4"
+    },
+    {
+      "type": "trojan",
+      "server": "104.16.174.117",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
       "tag": "n5"
-    },
-    {
-      "type": "trojan",
-      "server": "104.18.152.77",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n6"
-    },
-    {
-      "type": "trojan",
-      "server": "104.17.111.1",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n7"
-    },
-    {
-      "type": "trojan",
-      "server": "216.24.57.7",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n8"
-    },
-    {
-      "type": "trojan",
-      "server": "165.215.250.14",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n9"
     },
     {
       "type": "vless",
       "server": "172.64.158.146",
-      "server_port": 8880,
+      "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "8nj2r.2k8t.f88.hh.vavava.kdns.fr#美国 CloudFlare节点",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -449,60 +393,13 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n10"
-    },
-    {
-      "type": "trojan",
-      "server": "104.17.177.143",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n11"
+      "tag": "n6"
     },
     {
       "type": "vless",
-      "server": "45.131.4.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime59.workers.dev#A - 🇸🇬 SG 08 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n12"
-    },
-    {
-      "type": "vless",
-      "server": "104.17.25.132",
+      "server": "104.21.1.5",
       "server_port": 80,
-      "uuid": "73d17f62-d0c0-4c90-903c-a2b3f3806cca",
+      "uuid": "eb295cd7-a389-4cde-9598-ce126b0910bc",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -513,9 +410,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048fp=chrome#A - 🇸🇬 SG 11 TG: @nodpai",
+        "path": "/fp=chrome#A - 🇸🇬 SG 13 TG: @nodpai",
         "headers": {
-          "Host": "fragrant-tooth-a5b7.cajeba6448.workers.dev"
+          "Host": "v2configlab.v2configlab2.workers.dev"
         }
       },
       "multiplex": {
@@ -523,7 +420,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n13"
+      "tag": "n7"
     },
     {
       "type": "vless",
@@ -550,34 +447,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n14"
-    },
-    {
-      "type": "vless",
-      "server": "50.62.198.50",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560#A - 🇺🇸 US 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime39.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n15"
+      "tag": "n8"
     },
     {
       "type": "vless",
@@ -604,7 +474,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n16"
+      "tag": "n9"
     },
     {
       "type": "vless",
@@ -631,16 +501,16 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n17"
+      "tag": "n10"
     },
     {
       "type": "vless",
-      "server": "160.153.138.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "icook.hk",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "misaka.cndyw.ggff.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -648,9 +518,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/#A - 🇺🇸 US 06 TG: @nodpai",
+        "path": "/?ed=2560fp=random",
         "headers": {
-          "Host": "vms.lifetime04.workers.dev"
+          "Host": "misaka.cndyw.ggff.net"
         }
       },
       "multiplex": {
@@ -658,61 +528,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n18"
-    },
-    {
-      "type": "vless",
-      "server": "198.41.208.203",
-      "server_port": 80,
-      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mpmva3e8rtr6v7qq#A - 🇺🇸 US 11 TG: @nodpai",
-        "headers": {
-          "Host": "index.harmony715.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n19"
-    },
-    {
-      "type": "vless",
-      "server": "45.40.153.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇺🇸 US 13 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime44.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n20"
+      "tag": "n11"
     },
     {
       "type": "vless",
@@ -739,67 +555,13 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n21"
+      "tag": "n12"
     },
     {
       "type": "vless",
-      "server": "172.66.44.211",
-      "server_port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "wk1.f1w.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "wk1.f1w.de5.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n22"
-    },
-    {
-      "type": "vless",
-      "server": "singapore.com",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n23"
-    },
-    {
-      "type": "vless",
-      "server": "172.64.146.127",
+      "server": "173.245.49.30",
       "server_port": 8880,
-      "uuid": "7890ce31-9a25-4fd4-90e7-80e5823ff510",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -810,9 +572,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/telegram🇨🇳@wangcai2/#C - 🇺🇸 US 45 TG: @nodpai",
+        "path": "/#A - 🇺🇸 US 15 TG: @nodpai",
         "headers": {
-          "Host": "frejd.11258.workers.dev"
+          "Host": "vms.lifetime36.workers.dev"
         }
       },
       "multiplex": {
@@ -820,7 +582,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n24"
+      "tag": "n13"
     },
     {
       "type": "vless",
@@ -847,115 +609,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n25"
-    },
-    {
-      "type": "vless",
-      "server": "72.167.230.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime51.workers.dev#A - 🇰🇷 KR 02 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n26"
-    },
-    {
-      "type": "vless",
-      "server": "45.80.111.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇩🇪 DE 06 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime52.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n27"
-    },
-    {
-      "type": "vless",
-      "server": "66.81.247.40",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "vms.lifetime44.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n28"
-    },
-    {
-      "type": "vless",
-      "server": "193.9.49.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇦🇺 AU 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime44.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n29"
+      "tag": "n14"
     },
     {
       "type": "vless",
@@ -982,7 +636,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n30"
+      "tag": "n15"
     },
     {
       "type": "vless",
@@ -1009,7 +663,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n31"
+      "tag": "n16"
     },
     {
       "type": "vless",
@@ -1036,34 +690,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n32"
-    },
-    {
-      "type": "vless",
-      "server": "192.169.223.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇪🇸 ES 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime42.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n33"
+      "tag": "n17"
     },
     {
       "type": "vless",
@@ -1090,7 +717,1254 @@
         "protocol": "smux",
         "max_streams": 16
       },
+      "tag": "n18"
+    },
+    {
+      "type": "vless",
+      "server": "45.131.209.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇮🇱 IL 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n19"
+    },
+    {
+      "type": "vless",
+      "server": "185.170.166.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇮🇪 IE 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n20"
+    },
+    {
+      "type": "vless",
+      "server": "104.17.32.10",
+      "server_port": 443,
+      "uuid": "3ead7294-b782-42e4-968c-f93ce3bfbdd6",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ray#adi|0603+-+VLESS德国",
+        "headers": {
+          "Host": "v2rayge2.free3333.xyz"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n21"
+    },
+    {
+      "type": "trojan",
+      "server": "104.20.6.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com#🏁RELAY-104.20.6.134-0677",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n22"
+    },
+    {
+      "type": "trojan",
+      "server": "104.18.22.63",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com#🏁RELAY-104.18.22.63-0682",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n23"
+    },
+    {
+      "type": "trojan",
+      "server": "zi.you.usdtvfk.top",
+      "server_port": 443,
+      "password": "4d048fc6-d944-41dd-b327-10856adcc82d",
+      "tls": {
+        "enabled": true,
+        "server_name": "zi.you.usdtvfk.top#🏁RELAY-172.67.178.88-1441",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n24"
+    },
+    {
+      "type": "trojan",
+      "server": "104.26.14.137",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "104.26.14.137",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n25"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "passconf.xyz",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qGjmI8WQlF0tfhDbkLqGdN",
+      "tag": "n26"
+    },
+    {
+      "type": "trojan",
+      "server": "104.16.183.101",
+      "server_port": 443,
+      "password": "a0514d9b-d109-47fd-b173-1e7f83268f21",
+      "tls": {
+        "enabled": true,
+        "server_name": "tws23.kallepache.store",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n27"
+    },
+    {
+      "type": "trojan",
+      "server": "104.18.152.187",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n28"
+    },
+    {
+      "type": "trojan",
+      "server": "104.16.72.41",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com#美国 CloudFlare节点",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n29"
+    },
+    {
+      "type": "trojan",
+      "server": "130.250.137.171",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com#加拿大 V2CROSS.COM",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n30"
+    },
+    {
+      "type": "trojan",
+      "server": "104.16.174.121",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n31"
+    },
+    {
+      "type": "vless",
+      "server": "172.64.158.146",
+      "server_port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n32"
+    },
+    {
+      "type": "trojan",
+      "server": "104.16.174.46",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n33"
+    },
+    {
+      "type": "trojan",
+      "server": "104.18.152.208",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
       "tag": "n34"
+    },
+    {
+      "type": "trojan",
+      "server": "104.17.111.4",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n35"
+    },
+    {
+      "type": "vless",
+      "server": "198.41.219.218",
+      "server_port": 443,
+      "uuid": "fe273991-0514-4a16-8ec4-b15ae861c000",
+      "tls": {
+        "enabled": true,
+        "server_name": "zyzzzoao.xn--fiqv8j.eu.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048fp=randomized",
+        "headers": {
+          "Host": "zyzzzoao.xn--fiqv8j.eu.org"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n36"
+    },
+    {
+      "type": "vless",
+      "server": "176.124.223.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime38.workers.dev#A - 🇯🇵 JP 05 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n37"
+    },
+    {
+      "type": "vless",
+      "server": "104.26.5.134",
+      "server_port": 2096,
+      "uuid": "7f50ec42-4673-41e2-94be-ae6253909def",
+      "tls": {
+        "enabled": true,
+        "server_name": "joey.freen1.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048security=tls#A - 🇸🇬 SG 07 TG: @nodpai",
+        "headers": {
+          "Host": "joey.freen1.de5.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n38"
+    },
+    {
+      "type": "vless",
+      "server": "45.131.4.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime59.workers.dev#A - 🇸🇬 SG 08 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n39"
+    },
+    {
+      "type": "vless",
+      "server": "114.129.43.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇸🇬 SG 09 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n40"
+    },
+    {
+      "type": "vless",
+      "server": "104.17.25.132",
+      "server_port": 80,
+      "uuid": "73d17f62-d0c0-4c90-903c-a2b3f3806cca",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048fp=chrome#A - 🇸🇬 SG 11 TG: @nodpai",
+        "headers": {
+          "Host": "fragrant-tooth-a5b7.cajeba6448.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n41"
+    },
+    {
+      "type": "vless",
+      "server": "195.26.229.50",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "vms.lifetime56.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n42"
+    },
+    {
+      "type": "vless",
+      "server": "50.62.198.50",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560#A - 🇺🇸 US 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime39.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n43"
+    },
+    {
+      "type": "vless",
+      "server": "160.153.138.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇺🇸 US 06 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n44"
+    },
+    {
+      "type": "vless",
+      "server": "fbi.gov",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n45"
+    },
+    {
+      "type": "vless",
+      "server": "www.gov.se",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n46"
+    },
+    {
+      "type": "vless",
+      "server": "198.41.208.203",
+      "server_port": 80,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mpmva3e8rtr6v7qq#A - 🇺🇸 US 11 TG: @nodpai",
+        "headers": {
+          "Host": "index.harmony715.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n47"
+    },
+    {
+      "type": "vless",
+      "server": "45.40.153.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇺🇸 US 13 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime44.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n48"
+    },
+    {
+      "type": "vless",
+      "server": "www.udacity.com",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n49"
+    },
+    {
+      "type": "vless",
+      "server": "172.66.44.211",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "wk1.f1w.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "wk1.f1w.de5.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n50"
+    },
+    {
+      "type": "vless",
+      "server": "172.66.47.45",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "wk1.f1w.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "wk1.f1w.de5.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n51"
+    },
+    {
+      "type": "vless",
+      "server": "singapore.com",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n52"
+    },
+    {
+      "type": "vless",
+      "server": "yx.cloudflare.182682.xyz",
+      "server_port": 443,
+      "uuid": "5b9fa73b-b549-480b-add9-c45e650d236f",
+      "tls": {
+        "enabled": true,
+        "server_name": "gddy.hhlfy.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fp=firefoxsecurity=tls#B - 🇺🇸 US 38 TG: @nodpai",
+        "headers": {
+          "Host": "gddy.hhlfy.de5.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n53"
+    },
+    {
+      "type": "vless",
+      "server": "japan.com",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n54"
+    },
+    {
+      "type": "vless",
+      "server": "russia.com",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n55"
+    },
+    {
+      "type": "vless",
+      "server": "172.64.146.127",
+      "server_port": 8880,
+      "uuid": "7890ce31-9a25-4fd4-90e7-80e5823ff510",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/telegram🇨🇳@wangcai2/#C - 🇺🇸 US 45 TG: @nodpai",
+        "headers": {
+          "Host": "frejd.11258.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n56"
+    },
+    {
+      "type": "vless",
+      "server": "185.193.30.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime09.workers.dev#A - 🇬🇧 GB 01 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n57"
+    },
+    {
+      "type": "vless",
+      "server": "45.40.146.50",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560#A - 🇬🇧 GB 02 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime36.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n58"
+    },
+    {
+      "type": "vless",
+      "server": "45.80.110.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime51.workers.dev#A - 🇬🇧 GB 03 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n59"
+    },
+    {
+      "type": "vless",
+      "server": "185.159.247.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#B - 🇬🇧 GB 04 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime59.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n60"
+    },
+    {
+      "type": "vless",
+      "server": "108.162.196.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime59.workers.dev#A - 🇰🇷 KR 01 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n61"
+    },
+    {
+      "type": "vless",
+      "server": "72.167.230.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime51.workers.dev#A - 🇰🇷 KR 02 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n62"
+    },
+    {
+      "type": "vless",
+      "server": "45.85.119.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime56.workers.dev#A - 🇫🇷 FR 01 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n63"
+    },
+    {
+      "type": "vless",
+      "server": "66.81.247.40",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "vms.lifetime44.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n64"
+    },
+    {
+      "type": "vless",
+      "server": "193.9.49.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇦🇺 AU 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime44.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n65"
+    },
+    {
+      "type": "vless",
+      "server": "88.216.66.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev#A - 🇳🇱 NL 02 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n66"
+    },
+    {
+      "type": "vless",
+      "server": "45.67.215.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇷🇺 RU 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime48.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n67"
+    },
+    {
+      "type": "vless",
+      "server": "198.71.189.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev#A - 🇧🇷 BR 01 TG: @nodpai"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n68"
     },
     {
       "type": "vless",
@@ -1117,7 +1991,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n35"
+      "tag": "n69"
     },
     {
       "type": "vless",
@@ -1144,7 +2018,34 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n36"
+      "tag": "n70"
+    },
+    {
+      "type": "vless",
+      "server": "45.80.110.50",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560#A - 🇪🇪 EE 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime51.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n71"
     },
     {
       "type": "vless",
@@ -1171,7 +2072,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n37"
+      "tag": "n72"
     },
     {
       "type": "vless",
@@ -1198,7 +2099,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n38"
+      "tag": "n73"
     },
     {
       "type": "vless",
@@ -1225,7 +2126,54 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n39"
+      "tag": "n74"
+    },
+    {
+      "type": "vless",
+      "server": "69.46.46.5",
+      "server_port": 443,
+      "uuid": "f0b04cce-5ee6-947d-74eb-b6dbd56133b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "quartz-meadow-2cc8-production.up.railway.app",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n75"
+    },
+    {
+      "type": "vless",
+      "server": "104.17.32.100",
+      "server_port": 443,
+      "uuid": "56f88531-8d52-484c-a6be-3a78385d054a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ray#adi|0603+-+VLESS荷兰CDN",
+        "headers": {
+          "Host": "nl2.free2222.xyz"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n76"
     },
     {
       "type": "vless",
@@ -1252,7 +2200,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n40"
+      "tag": "n77"
     },
     {
       "type": "vless",
@@ -1280,7 +2228,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n41"
+      "tag": "n78"
     },
     {
       "type": "vless",
@@ -1308,7 +2256,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n42"
+      "tag": "n79"
     },
     {
       "type": "vless",
@@ -1336,36 +2284,16 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n43"
+      "tag": "n80"
     },
     {
       "type": "trojan",
-      "server": "zi.you.usdtvfk.top",
-      "server_port": 443,
-      "password": "4d048fc6-d944-41dd-b327-10856adcc82d",
-      "tls": {
-        "enabled": true,
-        "server_name": "zi.you.usdtvfk.top#🏁RELAY-172.67.178.88-1441",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n44"
-    },
-    {
-      "type": "trojan",
-      "server": "104.19.229.21",
+      "server": "45.130.125.112",
       "server_port": 443,
       "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "104.19.229.21",
+        "server_name": "45.130.125.112",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1376,79 +2304,11 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n45"
+      "tag": "n81"
     },
     {
       "type": "trojan",
-      "server": "104.16.71.213",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "104.16.71.213",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n46"
-    },
-    {
-      "type": "trojan",
-      "server": "104.26.14.137",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "104.26.14.137",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n47"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "passconf.xyz",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qGjmI8WQlF0tfhDbkLqGdN",
-      "tag": "n48"
-    },
-    {
-      "type": "trojan",
-      "server": "104.16.183.101",
-      "server_port": 443,
-      "password": "a0514d9b-d109-47fd-b173-1e7f83268f21",
-      "tls": {
-        "enabled": true,
-        "server_name": "tws23.kallepache.store",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n49"
-    },
-    {
-      "type": "trojan",
-      "server": "104.18.152.210",
+      "server": "join-telegram-channel.tirexnet.kdns.fr",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -1464,11 +2324,11 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n50"
+      "tag": "n82"
     },
     {
       "type": "trojan",
-      "server": "join-telegram-channel-tirexnet.trex.kdns.fr",
+      "server": "www.speedtest.org",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -1484,289 +2344,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n51"
-    },
-    {
-      "type": "trojan",
-      "server": "104.16.174.14",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n52"
-    },
-    {
-      "type": "trojan",
-      "server": "104.16.174.124",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n53"
-    },
-    {
-      "type": "trojan",
-      "server": "188.42.145.180",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.volumeroot.com#卢森堡 root.lu数据中心",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n54"
-    },
-    {
-      "type": "trojan",
-      "server": "104.18.152.73",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n55"
-    },
-    {
-      "type": "trojan",
-      "server": "104.17.111.3",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n56"
-    },
-    {
-      "type": "trojan",
-      "server": "104.18.152.143",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n57"
-    },
-    {
-      "type": "vless",
-      "server": "198.41.219.218",
-      "server_port": 443,
-      "uuid": "fe273991-0514-4a16-8ec4-b15ae861c000",
-      "tls": {
-        "enabled": true,
-        "server_name": "zyzzzoao.xn--fiqv8j.eu.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048fp=randomized",
-        "headers": {
-          "Host": "zyzzzoao.xn--fiqv8j.eu.org"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n58"
-    },
-    {
-      "type": "vless",
-      "server": "176.124.223.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime38.workers.dev#A - 🇯🇵 JP 05 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n59"
-    },
-    {
-      "type": "vless",
-      "server": "104.26.5.134",
-      "server_port": 2096,
-      "uuid": "7f50ec42-4673-41e2-94be-ae6253909def",
-      "tls": {
-        "enabled": true,
-        "server_name": "joey.freen1.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048security=tls#A - 🇸🇬 SG 07 TG: @nodpai",
-        "headers": {
-          "Host": "joey.freen1.de5.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n60"
-    },
-    {
-      "type": "vless",
-      "server": "114.129.43.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇸🇬 SG 09 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime04.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n61"
-    },
-    {
-      "type": "vless",
-      "server": "195.26.229.50",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "vms.lifetime56.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n62"
-    },
-    {
-      "type": "vless",
-      "server": "104.21.1.5",
-      "server_port": 80,
-      "uuid": "eb295cd7-a389-4cde-9598-ce126b0910bc",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome#A - 🇸🇬 SG 13 TG: @nodpai",
-        "headers": {
-          "Host": "v2configlab.v2configlab2.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n63"
+      "tag": "n83"
     },
     {
       "type": "vless",
@@ -1793,7 +2371,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n64"
+      "tag": "n84"
     },
     {
       "type": "vless",
@@ -1820,142 +2398,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n65"
-    },
-    {
-      "type": "vless",
-      "server": "45.40.151.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇺🇸 US 05 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime42.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n66"
-    },
-    {
-      "type": "vless",
-      "server": "icook.hk",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n67"
-    },
-    {
-      "type": "vless",
-      "server": "fbi.gov",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n68"
-    },
-    {
-      "type": "vless",
-      "server": "173.245.49.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇺🇸 US 15 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime36.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n69"
-    },
-    {
-      "type": "vless",
-      "server": "www.udacity.com",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n70"
+      "tag": "n85"
     },
     {
       "type": "trojan",
@@ -1975,418 +2418,13 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n71"
-    },
-    {
-      "type": "vless",
-      "server": "172.66.47.45",
-      "server_port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "wk1.f1w.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "wk1.f1w.de5.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n72"
-    },
-    {
-      "type": "vless",
-      "server": "japan.com",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n73"
-    },
-    {
-      "type": "vless",
-      "server": "russia.com",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n74"
-    },
-    {
-      "type": "vless",
-      "server": "185.193.30.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime09.workers.dev#A - 🇬🇧 GB 01 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n75"
-    },
-    {
-      "type": "vless",
-      "server": "45.80.110.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime51.workers.dev#A - 🇬🇧 GB 03 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n76"
-    },
-    {
-      "type": "vless",
-      "server": "185.159.247.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#B - 🇬🇧 GB 04 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime59.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n77"
-    },
-    {
-      "type": "vless",
-      "server": "108.162.196.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime59.workers.dev#A - 🇰🇷 KR 01 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n78"
-    },
-    {
-      "type": "vless",
-      "server": "45.85.119.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime56.workers.dev#A - 🇫🇷 FR 01 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n79"
-    },
-    {
-      "type": "vless",
-      "server": "88.216.66.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime04.workers.dev#A - 🇳🇱 NL 02 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n80"
-    },
-    {
-      "type": "vless",
-      "server": "45.67.215.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇷🇺 RU 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime48.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n81"
-    },
-    {
-      "type": "vless",
-      "server": "198.71.189.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "vms.lifetime04.workers.dev#A - 🇧🇷 BR 01 TG: @nodpai"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n82"
-    },
-    {
-      "type": "vless",
-      "server": "45.131.209.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇮🇱 IL 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime04.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n83"
-    },
-    {
-      "type": "vless",
-      "server": "45.80.110.50",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560#A - 🇪🇪 EE 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime51.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n84"
-    },
-    {
-      "type": "vless",
-      "server": "185.170.166.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/#A - 🇮🇪 IE 01 TG: @nodpai",
-        "headers": {
-          "Host": "vms.lifetime04.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n85"
-    },
-    {
-      "type": "vless",
-      "server": "104.17.32.10",
-      "server_port": 443,
-      "uuid": "3ead7294-b782-42e4-968c-f93ce3bfbdd6",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ray#adi|0603+-+VLESS德国",
-        "headers": {
-          "Host": "v2rayge2.free3333.xyz"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
       "tag": "n86"
     },
     {
       "type": "vless",
-      "server": "104.17.32.100",
-      "server_port": 443,
-      "uuid": "56f88531-8d52-484c-a6be-3a78385d054a",
+      "server": "45.80.111.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2397,9 +2435,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ray#adi|0603+-+VLESS荷兰CDN",
+        "path": "/#A - 🇩🇪 DE 06 TG: @nodpai",
         "headers": {
-          "Host": "nl2.free2222.xyz"
+          "Host": "vms.lifetime52.workers.dev"
         }
       },
       "multiplex": {
@@ -2408,6 +2446,33 @@
         "max_streams": 16
       },
       "tag": "n87"
+    },
+    {
+      "type": "vless",
+      "server": "192.169.223.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#A - 🇪🇸 ES 01 TG: @nodpai",
+        "headers": {
+          "Host": "vms.lifetime42.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n88"
     },
     {
       "type": "vless",
@@ -2434,38 +2499,11 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n88"
-    },
-    {
-      "type": "vless",
-      "server": "www.gov.se",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
       "tag": "n89"
     },
     {
       "type": "vless",
-      "server": "45.40.146.50",
+      "server": "45.40.151.30",
       "server_port": 8880,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
@@ -2478,9 +2516,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560#A - 🇬🇧 GB 02 TG: @nodpai",
+        "path": "/#A - 🇺🇸 US 05 TG: @nodpai",
         "headers": {
-          "Host": "vms.lifetime36.workers.dev"
+          "Host": "vms.lifetime42.workers.dev"
         }
       },
       "multiplex": {
@@ -2489,294 +2527,6 @@
         "max_streams": 16
       },
       "tag": "n90"
-    },
-    {
-      "type": "vless",
-      "server": "www.zsu.gov.ua",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n91"
-    },
-    {
-      "type": "vless",
-      "server": "69.46.46.5",
-      "server_port": 443,
-      "uuid": "f0b04cce-5ee6-947d-74eb-b6dbd56133b2",
-      "tls": {
-        "enabled": true,
-        "server_name": "quartz-meadow-2cc8-production.up.railway.app",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n92"
-    },
-    {
-      "type": "trojan",
-      "server": "45.9.10.103",
-      "server_port": 443,
-      "password": "WpfQAbO2wg",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.9.10.103",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n93"
-    },
-    {
-      "type": "vless",
-      "server": "84.32.61.87",
-      "server_port": 443,
-      "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-      "tls": {
-        "enabled": true,
-        "server_name": "apiv10.jarvesitw.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "flow": "xtls-rprx-vision-udp443",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n94"
-    },
-    {
-      "type": "hysteria2",
-      "server": "66.94.121.46",
-      "server_port": 443,
-      "password": "gf1%3Agfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.broadcom.com#🇺🇸US_1|1.1MB/s"
-      },
-      "tag": "n95"
-    },
-    {
-      "type": "vless",
-      "server": "155.117.199.13",
-      "server_port": 29893,
-      "uuid": "f06c6039-a489-3d78-a676-ed43be6deca3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdnjs.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision-udp443",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n96"
-    },
-    {
-      "type": "vless",
-      "server": "155.117.199.13",
-      "server_port": 39399,
-      "uuid": "f06c6039-a489-3d78-a676-ed43be6deca3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdnjs.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision-udp443",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n97"
-    },
-    {
-      "type": "vless",
-      "server": "155.117.199.13",
-      "server_port": 39211,
-      "uuid": "f06c6039-a489-3d78-a676-ed43be6deca3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdnjs.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision-udp443",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n98"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "167.88.63.59",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n99"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "167.88.63.44",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n100"
-    },
-    {
-      "type": "trojan",
-      "server": "v5.tgfaka.com",
-      "server_port": 48443,
-      "password": "6f48efb9-3817-4652-832f-fd04d93ebbc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "d76bb35696.laowanxiang.com#🏁RELAY-172.65.211.209-4179",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n101"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hCCWOcIsK5wrFz4OX70rWf",
-      "tag": "n102"
-    },
-    {
-      "type": "trojan",
-      "server": "shining-piranha.rooster465.autos",
-      "server_port": 443,
-      "password": "CF68213490",
-      "tls": {
-        "enabled": true,
-        "server_name": "shining-piranha.rooster465.autos",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n103"
-    },
-    {
-      "type": "vless",
-      "server": "www.4chan.org",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n104"
-    },
-    {
-      "type": "vless",
-      "server": "shopify.com",
-      "server_port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560fp=random",
-        "headers": {
-          "Host": "misaka.cndyw.ggff.net"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n105"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "167.88.61.175",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n106"
     },
     {
       "type": "vless",
@@ -2803,15 +2553,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n107"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "142.4.216.225",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ytw2awn",
-      "tag": "n108"
+      "tag": "n91"
     },
     {
       "type": "shadowsocks",
@@ -2819,16 +2561,259 @@
       "server_port": 443,
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM",
-      "tag": "n109"
+      "tag": "n92"
+    },
+    {
+      "type": "vless",
+      "server": "www.zsu.gov.ua",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n93"
+    },
+    {
+      "type": "vless",
+      "server": "www.4chan.org",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n94"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "167.88.63.59",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n95"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "167.88.63.44",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n96"
+    },
+    {
+      "type": "vless",
+      "server": "84.32.61.87",
+      "server_port": 443,
+      "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c",
+      "tls": {
+        "enabled": true,
+        "server_name": "apiv10.jarvesitw.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "flow": "xtls-rprx-vision-udp443",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n97"
+    },
+    {
+      "type": "vless",
+      "server": "shopify.com",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random",
+        "headers": {
+          "Host": "misaka.cndyw.ggff.net"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n98"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "142.4.216.225",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ytw2awn",
+      "tag": "n99"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "167.88.62.68",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n100"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "38.68.135.123",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n101"
+    },
+    {
+      "type": "hysteria2",
+      "server": "us.frkn.org",
+      "server_port": 443,
+      "password": "3b8c82ed-fe66-472d-915e-034ccb57103f",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.frkn.org#美国"
+      },
+      "tag": "n102"
+    },
+    {
+      "type": "vless",
+      "server": "155.117.199.13",
+      "server_port": 29893,
+      "uuid": "f06c6039-a489-3d78-a676-ed43be6deca3",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdnjs.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "flow": "xtls-rprx-vision-udp443",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n103"
+    },
+    {
+      "type": "vless",
+      "server": "155.117.199.13",
+      "server_port": 39399,
+      "uuid": "f06c6039-a489-3d78-a676-ed43be6deca3",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdnjs.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "flow": "xtls-rprx-vision-udp443",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n104"
+    },
+    {
+      "type": "vless",
+      "server": "155.117.199.13",
+      "server_port": 39211,
+      "uuid": "f06c6039-a489-3d78-a676-ed43be6deca3",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdnjs.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "flow": "xtls-rprx-vision-udp443",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n105"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hCCWOcIsK5wrFz4OX70rWf",
+      "tag": "n106"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "167.88.61.175",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n107"
+    },
+    {
+      "type": "hysteria2",
+      "server": "66.94.121.46",
+      "server_port": 443,
+      "password": "gf1%3Agfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.broadcom.com#🇺🇸US_1|1.1MB/s"
+      },
+      "tag": "n108"
     },
     {
       "type": "trojan",
-      "server": "gentle-turtle.rooster465.autos",
+      "server": "45.9.10.103",
       "server_port": 443,
-      "password": "NQ26071394",
+      "password": "WpfQAbO2wg",
       "tls": {
         "enabled": true,
-        "server_name": "gentle-turtle.rooster465.autos",
+        "server_name": "45.9.10.103",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2839,16 +2824,24 @@
         "protocol": "smux",
         "max_streams": 16
       },
+      "tag": "n109"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "172.99.190.149",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
       "tag": "n110"
     },
     {
       "type": "trojan",
-      "server": "helped-jennet.rooster465.autos",
+      "server": "emerging-baboon.rooster465.autos",
       "server_port": 443,
       "password": "NQ26071394",
       "tls": {
         "enabled": true,
-        "server_name": "helped-jennet.rooster465.autos",
+        "server_name": "emerging-baboon.rooster465.autos",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2863,12 +2856,12 @@
     },
     {
       "type": "trojan",
-      "server": "ultimate-jaguar.rooster465.autos",
+      "server": "adapting-basilisk.rooster465.autos",
       "server_port": 443,
       "password": "CF68213490",
       "tls": {
         "enabled": true,
-        "server_name": "ultimate-jaguar.rooster465.autos",
+        "server_name": "adapting-basilisk.rooster465.autos",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2882,44 +2875,12 @@
       "tag": "n112"
     },
     {
-      "type": "trojan",
-      "server": "uk1.trojanvh.xyz",
-      "server_port": 80,
-      "password": "b640d791-ff83-4300-b509-c2a02f97f167",
-      "tls": {
-        "enabled": true,
-        "server_name": "uk1.trojanvh.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
+      "type": "shadowsocks",
+      "server": "95.170.13.47",
+      "server_port": 65443,
+      "method": "aes-256-cfb",
+      "password": "7eadc6dbe2ae",
       "tag": "n113"
-    },
-    {
-      "type": "trojan",
-      "server": "us2.trojanvh.xyz",
-      "server_port": 80,
-      "password": "255c924c-1314-4084-9a9e-1d1a82a5cf49",
-      "tls": {
-        "enabled": true,
-        "server_name": "us2.trojanvh.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n114"
     },
     {
       "type": "trojan",
@@ -2939,138 +2900,27 @@
         "protocol": "smux",
         "max_streams": 16
       },
+      "tag": "n114"
+    },
+    {
+      "type": "trojan",
+      "server": "v5.tgfaka.com",
+      "server_port": 48443,
+      "password": "6f48efb9-3817-4652-832f-fd04d93ebbc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "d76bb35696.laowanxiang.com#🏁RELAY-172.65.211.209-4179",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
       "tag": "n115"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "172.99.190.149",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n116"
-    },
-    {
-      "type": "trojan",
-      "server": "172.238.22.232",
-      "server_port": 48774,
-      "password": "758a36c5-d422-4e0d-9bee-a89ce9f9b078",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-node.internal#🇯🇵JP-172.238.22.232-4758",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n117"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "45.32.16.53",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "uTBjZhDmOMwBVAJI",
-      "tag": "n118"
-    },
-    {
-      "type": "vless",
-      "server": "140.238.33.0",
-      "server_port": 33940,
-      "uuid": "00000000-0000-4000-8000-000000000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristifp=chromesecurity=tls#B - 🇸🇬 SG 18 TG: @nodpai",
-        "headers": {
-          "Host": "57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n119"
-    },
-    {
-      "type": "trojan",
-      "server": "51.158.146.183",
-      "server_port": 443,
-      "password": "f6a0a650-306e-11ee-b692-1239d0255272",
-      "tls": {
-        "enabled": true,
-        "server_name": "Speedtest.net#🇳🇱NL-51.158.146.183-6804",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n120"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "172.99.188.71",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n121"
-    },
-    {
-      "type": "vless",
-      "server": "51.15.57.139",
-      "server_port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n122"
-    },
-    {
-      "type": "trojan",
-      "server": "64.176.36.61",
-      "server_port": 443,
-      "password": "8r<[9'l6hAO#8ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "64.176.36.61",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n123"
     },
     {
       "type": "vless",
@@ -3091,75 +2941,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n124"
-    },
-    {
-      "type": "trojan",
-      "server": "64.176.36.61",
-      "server_port": 443,
-      "password": "8r<[9'l6hAO#8ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "64.176.36.61",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n125"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "95.170.13.47",
-      "server_port": 65443,
-      "method": "aes-256-cfb",
-      "password": "7eadc6dbe2ae",
-      "tag": "n126"
-    },
-    {
-      "type": "trojan",
-      "server": "trus.moonfree.top",
-      "server_port": 443,
-      "password": "4863e1b2-ec2f-4c71-b862-ce533028e57e",
-      "tls": {
-        "enabled": true,
-        "server_name": "trus.moonfree.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n127"
-    },
-    {
-      "type": "vless",
-      "server": "136.244.94.171",
-      "server_port": 443,
-      "uuid": "52516534-4986-4959-b30b-a89463eed9af",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n128"
+      "tag": "n116"
     },
     {
       "type": "hysteria2",
@@ -3170,54 +2952,7 @@
         "enabled": true,
         "server_name": "www.linux.com#🩳32@oneclickvpnkeys"
       },
-      "tag": "n129"
-    },
-    {
-      "type": "hysteria2",
-      "server": "130.49.161.70",
-      "server_port": 443,
-      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2.aspidnet.xyz"
-      },
-      "tag": "n130"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "193.108.117.75",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n131"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "195.154.200.150",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM",
-      "tag": "n132"
-    },
-    {
-      "type": "trojan",
-      "server": "emerging-baboon.rooster465.autos",
-      "server_port": 443,
-      "password": "NQ26071394",
-      "tls": {
-        "enabled": true,
-        "server_name": "emerging-baboon.rooster465.autos",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "multiplex": {
-        "enabled": true,
-        "protocol": "smux",
-        "max_streams": 16
-      },
-      "tag": "n133"
+      "tag": "n117"
     },
     {
       "type": "trojan",
@@ -3237,7 +2972,7 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n134"
+      "tag": "n118"
     },
     {
       "type": "trojan",
@@ -3257,7 +2992,74 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n135"
+      "tag": "n119"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "193.108.117.75",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n120"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "172.99.188.71",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n121"
+    },
+    {
+      "type": "hysteria2",
+      "server": "130.49.161.70",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.aspidnet.xyz"
+      },
+      "tag": "n122"
+    },
+    {
+      "type": "vless",
+      "server": "188.220.67.245",
+      "server_port": 2087,
+      "uuid": "90da514d-8888-4a53-912e-ac2981c8c6ee",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n123"
+    },
+    {
+      "type": "trojan",
+      "server": "emerging-weevil.rooster465.autos",
+      "server_port": 443,
+      "password": "CF68213490",
+      "tls": {
+        "enabled": true,
+        "server_name": "emerging-weevil.rooster465.autos",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n124"
     },
     {
       "type": "shadowsocks",
@@ -3265,7 +3067,7 @@
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05",
-      "tag": "n136"
+      "tag": "n125"
     },
     {
       "type": "vless",
@@ -3286,32 +3088,16 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n137"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "82.38.31.48",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "tag": "n138"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "8.209.74.72",
-      "server_port": 20001,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PWpjPo3tqhPN4yRZ",
-      "tag": "n139"
+      "tag": "n126"
     },
     {
       "type": "trojan",
-      "server": "official.tokyometropolis.chernigov.ua",
-      "server_port": 2053,
-      "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+      "server": "51.158.146.183",
+      "server_port": 443,
+      "password": "f6a0a650-306e-11ee-b692-1239d0255272",
       "tls": {
         "enabled": true,
-        "server_name": "official.tokyometropolis.chernigov.ua",
+        "server_name": "Speedtest.net#🇳🇱NL-51.158.146.183-6804",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3322,16 +3108,159 @@
         "protocol": "smux",
         "max_streams": 16
       },
+      "tag": "n127"
+    },
+    {
+      "type": "vless",
+      "server": "163.8.195.241",
+      "server_port": 2087,
+      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n128"
+    },
+    {
+      "type": "vless",
+      "server": "136.244.94.171",
+      "server_port": 443,
+      "uuid": "52516534-4986-4959-b30b-a89463eed9af",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n129"
+    },
+    {
+      "type": "hysteria2",
+      "server": "nl1.sferavpn.pro",
+      "server_port": 443,
+      "password": "cd74c0a406664a5bc0bac098220a2468",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl1.sferavpn.pro"
+      },
+      "tag": "n130"
+    },
+    {
+      "type": "vless",
+      "server": "51.15.57.139",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_streams": 16
+      },
+      "tag": "n131"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.46",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n132"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.34",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n133"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.15",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n134"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.48",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n135"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.36",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n136"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.16",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n137"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "8.209.74.72",
+      "server_port": 20001,
+      "method": "chacha20-ietf-poly1305",
+      "password": "PWpjPo3tqhPN4yRZ",
+      "tag": "n138"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.10",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n139"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.35",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
       "tag": "n140"
     },
     {
       "type": "trojan",
-      "server": "official.tokyometropolis.odesa.ua",
-      "server_port": 2053,
-      "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+      "server": "helped-jennet.rooster465.autos",
+      "server_port": 443,
+      "password": "NQ26071394",
       "tls": {
         "enabled": true,
-        "server_name": "official.tokyometropolis.odesa.ua",
+        "server_name": "helped-jennet.rooster465.autos",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3346,12 +3275,12 @@
     },
     {
       "type": "trojan",
-      "server": "official.tokyometropolis.kyiv.ua",
-      "server_port": 2053,
-      "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+      "server": "shining-piranha.rooster465.autos",
+      "server_port": 443,
+      "password": "CF68213490",
       "tls": {
         "enabled": true,
-        "server_name": "official.tokyometropolis.kyiv.ua",
+        "server_name": "shining-piranha.rooster465.autos",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3366,12 +3295,12 @@
     },
     {
       "type": "trojan",
-      "server": "official.tokyometropolis.kiev.ua",
-      "server_port": 2053,
-      "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+      "server": "composed-sheep.rooster465.autos",
+      "server_port": 443,
+      "password": "CF68213490",
       "tls": {
         "enabled": true,
-        "server_name": "official.tokyometropolis.kiev.ua",
+        "server_name": "composed-sheep.rooster465.autos",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3385,13 +3314,53 @@
       "tag": "n143"
     },
     {
-      "type": "vless",
-      "server": "188.220.67.245",
-      "server_port": 2087,
-      "uuid": "90da514d-8888-4a53-912e-ac2981c8c6ee",
+      "type": "shadowsocks",
+      "server": "195.154.200.150",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM",
+      "tag": "n144"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.57",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n145"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.35",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n146"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.174",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n147"
+    },
+    {
+      "type": "shadowsocks",
+      "server": "82.38.31.49",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "tag": "n148"
+    },
+    {
+      "type": "trojan",
+      "server": "ultimate-jaguar.rooster465.autos",
+      "server_port": 443,
+      "password": "CF68213490",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "ultimate-jaguar.rooster465.autos",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3402,46 +3371,6 @@
         "protocol": "smux",
         "max_streams": 16
       },
-      "tag": "n144"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "82.38.31.35",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "tag": "n145"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "82.38.31.46",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "tag": "n146"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "82.38.31.49",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "tag": "n147"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "82.38.31.16",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "tag": "n148"
-    },
-    {
-      "type": "shadowsocks",
-      "server": "82.38.31.10",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
       "tag": "n149"
     }
   ],
